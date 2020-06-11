@@ -1,2 +1,3 @@
 import { Meteor } from "meteor/meteor";
-import '/imports/server/ssr.js';
+// do not import ssr until you want to use it
+// import '/imports/server/ssr.js';
