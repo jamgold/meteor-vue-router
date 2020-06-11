@@ -1,0 +1,15 @@
+{
+  "name": "meteor-vue-router",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.8.3",
+    "meteor-node-stubs": "^1.0.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.2",
+    "vue-meteor-tracker": "^1.2.0"
+  },
+  "devDependencies": {}
+}
