@@ -2,10 +2,9 @@ import Vue from 'vue'
 // import { MeteorData } from 'vue-meteor-tracker';
 import VueRouter from 'vue-router';
 
-import Home from './Home.vue';
-import About from './About.vue';
-// const NotFound = async () => {import x from './NotFound.vue';return x}
-import NotFound from './NotFound.vue';
+const Home = async () => import('./Home.vue');
+const About = async () => import('./About.vue');
+const NotFound = async () => import('./NotFound.vue');
 
 export const routes = [
   { path: '/', name: 'home', component: Home, menuItem: 'Home' },
